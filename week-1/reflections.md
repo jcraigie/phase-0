@@ -32,3 +32,26 @@ Rm – removes a file from within a directory.
 Help – displays the help file for a command or, with modifiers, displays a list of various commands. 
 
 #Forking and CLoning
+
+Github instructions:
+To create a new repository: 
+1. Once you have registered an account go to the accounts main page.
+2. In the upper right corner you will see a plus sign to the left of your avatar. Click it and choose “New Repository” from the menu that appears.
+3. In the new screen configure the name, privacy settings and license information as you see fit.
+
+To fork a repository:
+1. Navigate to the repository you wish to fork.
+2. In the upper right corner click the button labeled “Fork”.
+3. In the selection box that appears choose the tile that represents where you would like the repository forked to.
+
+To clone a repository:
+1. Navigate to the repository you wish to clone.
+2. Locate the box that contains the URL for the repository.
+3. Open your terminal and cd to to where you would like the repository to be cloned to, making sure it is not within another repository.
+4. Type into the terminal “git clone THE URL FOR THE REPOSITORY”.
+5. Enter in your github user name and password if prompted.
+
+A repository would be forked rather than creating a new one so that one could contribute to, continue with, or build upon the work already performed by others and saved within that repository.
+
+I found the setting up of git and Github to be relatively straight forward, this may be because I was already largely familiar with the concepts of version control just not the practice of it.
+ 
