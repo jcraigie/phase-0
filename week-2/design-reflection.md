@@ -1,1 +1,1 @@
-![Alt text](/imgs/Site_Map.png)
+![Site Map](/imgs/Site_Map.png)
