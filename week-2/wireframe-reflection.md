@@ -11,5 +11,5 @@ I wouldn't say I asked many questions but I did spend time visiting sites I like
 ###Which parts of the challenge did you enjoy and which parts did you find tedious?
 I found the actual creation of the wireframes, especially since I had to draw them by hand, to be tedious.
 
-![Wireframe Index](/week-2/imgs/wireframe-index.jpg)
-![Wireframe Blog Index](/week-2/imgs/wireframe-blog-index.jpg)
+![Wireframe Index](/week-2/imgs/wireframe-index.png)
+![Wireframe Blog Index](/week-2/imgs/wireframe-blog-index.png)
