@@ -1,4 +1,4 @@
-<img src="/imgs/3.4 ex1.PNG">
+<img src="imgs/3.4 ex1.PNG">
 <img src="imgs/3.4 ex2.PNG">
 <img src="imgs/3.4 ex3.PNG">
 <img src="imgs/3.4 ex4.PNG">
