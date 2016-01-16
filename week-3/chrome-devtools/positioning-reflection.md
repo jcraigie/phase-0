@@ -1,3 +1,12 @@
+<img src="/imgs/3.4 ex1.png">
+<img src="imgs/3.4 ex2.png">
+<img src="imgs/3.4 ex3.png">
+<img src="imgs/3.4 ex4.png">
+<img src="imgs/3.4 ex5.png">
+<img src="imgs/3.4 ex6.png">
+<img src="imgs/3.4 ex7.png">
+<img src="imgs/3.4 ex8.png">
+
 -How can you use Chrome's DevTools inspector to help you format or position elements?
 Chrome's Devtools inspector helps in formatting or positioning elements by providing a live environment that gives immediate feedback on any changes entered.
 
