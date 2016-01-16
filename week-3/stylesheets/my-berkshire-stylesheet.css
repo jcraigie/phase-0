@@ -69,3 +69,19 @@ div p img {
   text-align: center;
 
 }
+
+/*
+-What is important to know when linking an external file (like a stylesheet) to an HTML file?
+The location of the file in relation to the HTML file in order to generate the proper relative pathway to the file.
+
+-What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+We used an additional div to wrap the two link blocks in so that we could properly position the elements that followed in addition to relying on the branching nature of html to refer to an element by it's parent and child relationship. Chrome Devtools were an immense help with the immediate feedback.
+
+-What CSS did you use to modify the element style (like size, color, etc.)
+We used multiple CSS modifiers such as font-color, and font-size to styile the font; position, text-align, padding, display, and border to position the elements; and width, height, and background-color to style the elements.
+
+-Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+We used both classes and ids we chose to use classes for visual lines breaking up the pages so that we would be able to easily reuse the the element in the multiple locations that required it and used ids to differentiate the numerous divs for individual positioning and styling.
+
+-When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+I felt that the site that we developed had the cleaner code which followed best practices as I have been taughtbecause the original site used tables for positioning, had inline styling versus a seperate stylesheet and made poor use of the semantic tags of html.
