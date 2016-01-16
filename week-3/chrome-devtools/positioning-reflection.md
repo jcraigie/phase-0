@@ -1,7 +1,7 @@
-<img src="/imgs/3.4 ex1.png">
-<img src="imgs/3.4 ex2.png">
-<img src="imgs/3.4 ex3.png">
-<img src="imgs/3.4 ex4.png">
+<img src="/imgs/3.4 ex1.PNG">
+<img src="imgs/3.4 ex2.PNG">
+<img src="imgs/3.4 ex3.PNG">
+<img src="imgs/3.4 ex4.PNG">
 <img src="imgs/3.4 ex5.png">
 <img src="imgs/3.4 ex6.png">
 <img src="imgs/3.4 ex7.png">
