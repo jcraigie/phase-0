@@ -15,7 +15,9 @@ p 365 * 24
 p ((365 * 24)*60)*10
 ```
 ###How does Ruby handle addition, subtraction, multiplication, and division of numbers?
-Ruby handles 
+Ruby handles addition (+), subtraction(-), multiplication(*), and division(/) of numbers much like a calculator as long as you do not use floats and integers together without 
+converting them appropriatly for your desired result.
+
 ###What is the difference between integers and floats?
 An integer is any whole number i.e. a number that isn't a fraction or contain a decimal. A float is a number that contins a decimal.
 
@@ -23,8 +25,10 @@ An integer is any whole number i.e. a number that isn't a fraction or contain a 
 integer division will only return an integer, rounding down, while float will return the answer with a float if appropriate.
 
 ###What are strings? Why and when would you use them?
+Strings are groups of letters and are used when working with text.
 
 ###What are local variables? Why and when would you use them?
+Local variables are assigned a value such as a string or an integer and serve as stand in for that value allowing it to be used easily throughout the code.
 
 ###How was this challenge? Did you get a good review of some of the basics?
 This challenge was very straight forward and reminded me of the Codecademy material.
