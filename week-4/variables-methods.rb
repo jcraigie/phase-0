@@ -14,3 +14,20 @@ puts "Wouldn't " + better_num + " be a better number? It's bigger and better!"
 https://github.com/jcraigie/phase-0/blob/master/week-4/address/my_solution.rb
 
 https://github.com/jcraigie/phase-0/blob/master/week-4/math/my_solution.rb
+
+#How do you define a local variable
+#By naming the variable and setting it equal to a value.
+#
+#How do you define a method?
+#By defining(def) the methods name and declaring which variables it will accept as arguments.
+
+#What is the difference between a local variable and a method?
+#A variable is merely a pointer for a value while a method is a block of code which can potentially manipulate multiple variables.
+
+#How do you run a ruby program from the command line?
+#by typing ruby #filename#
+
+#How do you run an RSpec file from the command line?
+#By typing rspec #rspecfilename#
+#What was confusing about this material? What made sense?
+#I didn't find any of it confusing once I started saving my solution files before running rspec on them.
