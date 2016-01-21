@@ -28,3 +28,12 @@ integer division will only return an integer, rounding down, while float will re
 
 ###How was this challenge? Did you get a good review of some of the basics?
 This challenge was very straight forward and reminded me of the Codecademy material.
+
+4.2.1
+https://github.com/jcraigie/phase-0/blob/master/week-4/defining-variables.rb
+
+4.2.2
+https://github.com/jcraigie/phase-0/blob/master/week-4/simple-string.rb
+
+4.2.3
+https://github.com/jcraigie/phase-0/blob/master/week-4/basic-math.rb
