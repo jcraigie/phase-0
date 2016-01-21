@@ -12,3 +12,5 @@ better_num=(num+1).to_s
 puts "Wouldn't " + better_num + " be a better number? It's bigger and better!"
 
 https://github.com/jcraigie/phase-0/blob/master/week-4/address/my_solution.rb
+
+https://github.com/jcraigie/phase-0/blob/master/week-4/math/my_solution.rb
