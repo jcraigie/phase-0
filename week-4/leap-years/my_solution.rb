@@ -1,6 +1,6 @@
 # Leap Years
 
-# I worked on this challenge with: ].
+# I worked on this challenge with Saralis Rivera.
 
 
 # Your Solution Below
@@ -20,10 +20,7 @@ leap = false
   p leap
 end 
 
-leap_year?(4)
-leap_year?(400)
-leap_year?(100)
-leap_year?(3)
+
 #  it 'returns true for years divisible by 4 and not by 100' do
 #3    expect(leap_year?(4)).to be true
 #  end
