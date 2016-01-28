@@ -31,13 +31,11 @@ class Die
   end
 
   def roll
-    p Random.rand(@sides)
+    p 1 + Random.rand(@sides)
   end
 end
 
-d6 = Die.new(6)
 
-d6.roll
 
 
 
