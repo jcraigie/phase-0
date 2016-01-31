@@ -1,8 +1,8 @@
 # Pad an Array
 
-# I worked on this challenge [by myself, with: ]
+# I worked on this challenge with: Austin Dorff.
 
-# I spent [] hours on this challenge.
+# I spent [0.75] hours on this challenge.
 
 
 # Complete each step below according to the challenge directions and
@@ -77,3 +77,20 @@ end
 pad([1, 2, 3, 4], 8, 5)
 
 # 4. Reflection
+#Were you successful in breaking the problem down into small steps?
+#I think we were.
+
+#Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
+#I felt that we easily converted the psuedocode to code and felt the that the use of dupe was especially expedient.
+
+#Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
+#It was. I felt that the psuedocode allowed us to cover all of the neccessary steps correctly from the begining.
+
+#When you refactored, did you find any existing methods in Ruby to clean up your code?
+#We did not.
+
+#How readable is your solution? Did you and your pair choose descriptive variable names?
+#I Felt that the code was readable and desriptive.
+
+#What is the difference between destructive and non-destructive methods in your own words?
+#Destructive methods are methods which alter the orignal inpt and they are in some cases faster and require less memory than the nondestructive methods
