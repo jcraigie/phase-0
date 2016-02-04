@@ -15,11 +15,13 @@ def shortest_string(list_of_words)
   if list_of_words.empty? == true
     return nil
   end
-  word = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  word = 1
   list_of_words.each do |x|
-    if x.length < word.length
+    if x.length <= word.to_s.length
       word = x
     end
   end
-  return word
+  p word
 end
+list_of_words = ["as", "I"]
+shortest_string(list_of_words)
