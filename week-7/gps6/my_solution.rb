@@ -1,10 +1,12 @@
 # Virus Predictor
 
 # I worked on this challenge [by myself, with: ].
-# We spent [#] hours on this challenge.
+# We spent [#] hours on this challenge. 
 
-# EXPLANATION OF require_relative
-#
+
+## EXPLANATION OF require_relative
+# Requires a file and looks inside the current folder of the file you are working on, whereas
+# require requires a file and an explicitly stated path to the file
 #
 require_relative 'state_data'
 
@@ -82,6 +84,68 @@ california.virus_effects
 alaska = VirusPredictor.new("Alaska", STATE_DATA["Alaska"][:population_density], STATE_DATA["Alaska"][:population])
 alaska.virus_effects
 
-
+STATE_DATA.each do |place, v|
+  place = VirusPredictor.new(place)VirusPredictor.new("Alaska", STATE_DATA["Alaska"][:population_density], STATE_DATA["Alaska"][:population])
+alaska.virus_effects
 #=======================================================================
 # Reflection Section
+
+
+# refactored
+
+class VirusPredictor
+  
+  def self.generate_report(states)
+    states.each do |state, value|
+      new(state, value).virus_effects
+    end
+  end
+
+  def initialize(state_of_origin, data)
+    @state = state_of_origin
+    @population = data[:population]
+    @population_density = data[:population_density]
+  end
+
+  def virus_effects
+    # calls the other two method and combine the console message after calculation
+    predicted_deaths
+    speed_of_spread
+  end
+  
+  private
+
+  def predicted_deaths
+    
+    if @population_density < 50
+      number_of_deaths = (@population * 0.05).floor
+    else
+      number_of_deaths = (@population * (@population_density/50 * 0.1)).floor
+    end
+
+   
+
+    print "#{@state} will lose #{number_of_deaths} people in this outbreak"
+
+  end
+
+  def speed_of_spread #in months
+    # We are still perfecting our formula here. The speed is also affected
+    # by additional factors we haven't added into this functionality.
+    # calculates speed of virus spread acroos the state.
+    
+
+    if @population_density < 50
+      speed = 2.5
+    elsif @population_density >= 200
+      speed = 0.5
+    else
+      speed = 2.5 - (@population_density / 100)
+    end
+
+  
+    puts " and will spread across the state in #{speed} months.\n\n"
+
+  end
+
+end
