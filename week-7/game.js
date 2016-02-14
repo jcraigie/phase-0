@@ -327,18 +327,18 @@ land(mars)
 
 // Reflection
 //What was the most difficult part of this challenge?
-//  The most diffivult part dor me was keepin the if else statements straight and opening and closing them appropriately. 
+//-The most difficult part for me was keeping the if and else statements straight 
+// and opening and closing them appropriately. 
 // 
 //What did you learn about creating objects and functions that interact with one another?
-//
-//
-//Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+//- I learned that it is not as hard as I originally thought and relatively easy 
+// if one can keep the various properties straight.
+
+//Did you learn about any new built-in methods you could use in your refactored 
+// solution? If so, what were they and how do they work?
+//- I did not encounter any new methods in my refactoring. 
 
 //How can you access and manipulate properties of objects?
-//
-//
-//
-//
-//
-//
-//
+//- By calling the onject by name with the property name and manipulating it as 
+// you see fit. Properties can be reassigned values or or if they are a data 
+// structure they can be iterated over for instance.

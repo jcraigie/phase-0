@@ -1,8 +1,8 @@
  // JavaScript Olympics
 
-// I paired [by myself, with:] on this challenge.
+// I paired with: Austin Dorff on this challenge.
 
-// This challenge took me [#] hours.
+// This challenge took me [1] hours.
 
 // Warm Up
 function Athlete(name, age, event, quote) {
@@ -62,8 +62,14 @@ console.log(michaelPhelps.constructor === Athlete)
 console.log(michaelPhelps.name + " " + michaelPhelps.event + " " + michaelPhelps.quote)
 
 // Reflection
+// What JavaScript knowledge did you solidify in this challenge?
+// -This exercise definitely reinforced the concept of objects and how to manipulate them for me.
+
+// What are constructor functions?
+// - It is a function which constructs or defines an object and adds properties to it as necessary
+
+// How are constructors different from Ruby classes (in your research)?
+// -Ruby classes are more formalized while constructors do not have any special syntax.
 
 
-
-// Reflection
 
