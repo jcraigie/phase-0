@@ -316,12 +316,11 @@ function unload(){
       console.log("You win!!! Whoooooo!")
     }  
 }
-
-travel(mars)
-console.log(hulk.currentLocation)
 scan(asteroid)
-land(mars)
+travel(asteroid)
 mine(asteroid)
+travel(mars)
+land(mars)
 console.log(hulk)
 land(mars)
 
