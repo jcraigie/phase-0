@@ -190,6 +190,23 @@ var hulk ={
   damage: 0,
   damageCapacity: 2,
   goalToGo: 5,
+  mine: function mine(target) {
+  if (hulk.canUseMiningLaser == true && miningLaser.canMine == true){
+    if (hulk.currentCubicLoad < hulk.cubicCapacity && ((range(target) >= 1) <= 1) ){
+      hulk.currentCubicLoad ++;
+      console.log("One cubic meter of ore has been added.");
+    }
+    else if (range(target) >= 1){
+      console.log("We are out of range.");
+    }
+    else{
+      console.log("we are out of room.");
+    }
+  }  
+  else{
+    console.log("No mining laser is equipped")
+  }
+}
 }
 
 var earthStation = {
@@ -252,23 +269,23 @@ function scan(place) {
 
 //Mine
 //  Uses the mining laser
-function mine(target) {
-  if (hulk.canUseMiningLaser == true && miningLaser.canMine == true){
-    if (hulk.currentCubicLoad < hulk.cubicCapacity && ((range(target) >= 1) <= 1) ){
-      hulk.currentCubicLoad ++;
-      console.log("One cubic meter of ore has been added.");
-    }
-    else if (range(target) >= 1){
-      console.log("We are out of range.");
-    }
-    else{
-      console.log("we are out of room.");
-    }
-  }  
-  else{
-    console.log("No mining laser is equipped")
-  }
-}
+// function mine(target) {
+//   if (hulk.canUseMiningLaser == true && miningLaser.canMine == true){
+//     if (hulk.currentCubicLoad < hulk.cubicCapacity && ((range(target) >= 1) <= 1) ){
+//       hulk.currentCubicLoad ++;
+//       console.log("One cubic meter of ore has been added.");
+//     }
+//     else if (range(target) >= 1){
+//       console.log("We are out of range.");
+//     }
+//     else{
+//       console.log("we are out of room.");
+//     }
+//   }  
+//   else{
+//     console.log("No mining laser is equipped")
+//   }
+// }
 //Dock
 //  docks with a station
 function dock(target) {
@@ -318,7 +335,7 @@ function unload(){
 }
 scan(asteroid)
 travel(asteroid)
-mine(asteroid)
+hulk.mine(asteroid)
 travel(mars)
 land(mars)
 console.log(hulk)
