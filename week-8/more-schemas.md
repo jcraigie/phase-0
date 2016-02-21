@@ -1,8 +1,8 @@
 
-![One to one.](/imgs/one_to_one.png)
+![alt text](./imgs/one_to_one.png)
 This is a one to one relationship as game_details uses name from game for its unique id.
 
-![Many_to many.](/imgs/refactored_many_to_many.png)
+![alt text](./imgs/refactored_many_to_many.png)
 
 What is a one-to-one database?
 -A one-to-one database is a database where two items have a direct, singular, relationship 
