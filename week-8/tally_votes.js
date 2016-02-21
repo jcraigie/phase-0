@@ -62,12 +62,13 @@ var officers = {
   treasurer: undefined
 }
 
-// // Pseudocode
+// Pseudocode
+// FOR each voter in vote assign their vote for each position
+//   to EACH position in voteCount.
 
-  
-  
-
-
+// FOR each candidate in votecount
+//   if  candidate votecount is greater then previous officer assign that candidate to
+//   officer position.
 
 // __________________________________________
 // Initial Solution
