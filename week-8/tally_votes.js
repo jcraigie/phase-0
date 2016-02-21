@@ -127,11 +127,14 @@ function assign_officers() {
 // __________________________________________
 // Reflection
 // What did you learn about iterating over nested objects in JavaScript?
+// -I learned that it is way easier than I originally thought and much like every
+// other iterating over x execise we've done as long as you keep the values straight.
 
 // Were you able to find useful methods to help you with this
+// No.
 
 // What concepts were solidified in the process of working through this challenge?
-
+// iterating over objects and nested for loops.
 
 
 
