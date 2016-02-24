@@ -66,7 +66,7 @@ function new_list(shopping){
   new_shopping = shopping.split(" ");
   for (var i = 0; i < new_shopping.length; i++){
     var item = new_shopping[i];
-    list[item] = "0";
+    list[item] = "1";
   }
   
 console.log(list);
@@ -107,10 +107,13 @@ update_quantity("apple", 2);
 print(list);
 
 // REFLECTION
-// What concepts did you solidify in working on this challenge? (reviewing the passing of information, objects, constructors, etc.)
-// -
+// What concepts did you solidify in working on this challenge? (reviewing the passing
+// of information, objects, constructors, etc.)
+// -Working with objects, especially using variables with objects.
 
 // What was the most difficult part of this challenge?
-// -
+// -Nothing really stood out as being especially difficult.
 
 // Did an array or object make more sense to use and why?
+// In my opinion an object made more sense as the key could be set to the list 
+// item and the value to the desired quantity.
