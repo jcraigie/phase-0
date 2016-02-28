@@ -65,9 +65,8 @@
 
 # Your Refactored Solution
 def dr_evils_cipher(coded_message, shift)
-  coded = coded_message.downcase.split("")
-  # shift = shift
-  decoded = decrypt(coded, shift)
+  encoded = coded_message.downcase.split("")
+  decoded = decrypt(encoded, shift)
   decoded
 end
 
@@ -106,3 +105,11 @@ p dr_evils_cipher("alc@qeoi*e$xvmppmsr^alir#ai*gsyph%qeoi...#fmppmsrw?", -4)
 
 # Reflection
 # Keep your reflection limited to 10-15 minutes!
+# What concepts did you review in this challenge?
+# -Working with arrays and .each.
+
+# What is still confusing to you about Ruby?
+# -Nothing comes to mind.
+
+# What are you going to study to get more prepared for Phase 1?
+# -Keep reviewing.

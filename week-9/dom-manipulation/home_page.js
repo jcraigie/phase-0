@@ -38,3 +38,4 @@ var div_r_5 = document.getElementsByClassName("release-4");
 var template = document.getElementById('hidden');
 document.body.appendChild(template.content.cloneNode(true));
 
+

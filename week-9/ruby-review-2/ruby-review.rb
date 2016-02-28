@@ -143,5 +143,11 @@ end
 
 
 # Reflection
+# What concepts did you review in this challenge?
+# -Working with hashes. 
 
+# What is still confusing to you about Ruby?
+# -Nothing comes to mind.
 
+# What are you going to study to get more prepared for Phase 1?
+# -Keep reviewing.
